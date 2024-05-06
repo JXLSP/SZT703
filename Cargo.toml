@@ -1,0 +1,11 @@
+workspace = { members = [".", "api", "entity","services"] }
+[package]
+name = "SZT703"
+version = "0.1.0"
+dition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+
+[dependencies]
+app_web_api = { path = "api"}
